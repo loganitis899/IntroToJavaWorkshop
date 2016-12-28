@@ -18,8 +18,12 @@ for(int i=0; i<700005; i++){
 	giblits.setPenWidth(i);
 	giblits.setSpeed(10);
 	giblits.setRandomPenColor();
-	giblits.move(5*i);
-	giblits.turn(360/3);
+	giblits.move(2*i);
+	giblits.setRandomPenColor();
+	giblits.turn(360/50);
+	giblits.setRandomPenColor();
+	giblits.setRandomPenColor();
+	giblits.setRandomPenColor();
 	
 	
 }

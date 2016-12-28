@@ -41,7 +41,7 @@ turtle.turn(170);
 turtle.move(200);
 			
 turtle.turn(64);
-
+turtle.setPenColor(0, 0, 0);
 turtle.move(300); 
 			// 10. Check that your shape is the same as Figure 1. This is one arm of the ninja star.
 			// 11. Color your ninja star like Figure 2.
